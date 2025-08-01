@@ -74,6 +74,15 @@ const dez = `<pre>
 |o o|
 -----
 </pre>`;
+const dez = `<pre>
+-----
+|o o|
+|o o|
+|o o|
+|o o|
+|o o|
+-----
+</pre>`;
 
 const diceNumbers = [one, two, three, four, five, six, sete, oito, nove, dez];
 
