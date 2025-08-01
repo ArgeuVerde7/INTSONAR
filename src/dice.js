@@ -48,8 +48,34 @@ const sete = `<pre>
 | o |
 -----
 </pre>`;
+const oito = `<pre>
+-----
+|o o|
+|o o|
+|o o|
+|o o|
+-----
+</pre>`;
+const nove = `<pre>
+-----
+|o o|
+|o o|
+|o o|
+|o o|
+| o |
+-----
+</pre>`;
+const dez = `<pre>
+-----
+|o o|
+|o o|
+|o o|
+|o o|
+|o o|
+-----
+</pre>`;
 
-const diceNumbers = [one, two, three, four, five, six, sete];
+const diceNumbers = [one, two, three, four, five, six, sete, oito, nove, dez];
 
 module.exports = {
     roll: function () {
