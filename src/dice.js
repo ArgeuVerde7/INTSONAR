@@ -40,8 +40,16 @@ const six = `<pre>
 |o o|
 -----
 </pre>`;
+const sete = `<pre>
+-----
+|o o|
+|o o|
+|o o|
+| o |
+-----
+</pre>`;
 
-const diceNumbers = [one, two, three, four, five, six];
+const diceNumbers = [one, two, three, four, five, six, sete];
 
 module.exports = {
     roll: function () {
