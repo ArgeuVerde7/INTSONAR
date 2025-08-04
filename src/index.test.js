@@ -1,5 +1,3 @@
-src/index.test.js
-
     const request =  require('supertest')
     const server =  require('../server')
     const app = request(server)
@@ -17,5 +15,4 @@ src/index.test.js
     })
     afterAll(async () => {
         server.close();
-
     });
