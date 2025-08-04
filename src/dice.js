@@ -74,7 +74,7 @@ const dez = `<pre>
 |o o|
 -----
 </pre>`;
-const dez = `<pre>
+const vinte = `<pre>
 -----
 |o o|
 |o o|
@@ -84,7 +84,7 @@ const dez = `<pre>
 -----
 </pre>`;
 
-const diceNumbers = [one, two, three, four, five, six, sete, oito, nove, dez];
+const diceNumbers = [one, two, three, four, five, six, sete, oito, nove, dez, vinte];
 
 module.exports = {
     roll: function () {
