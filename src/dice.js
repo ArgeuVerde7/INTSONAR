@@ -83,8 +83,17 @@ const vinte = `<pre>
 |o o|
 -----
 </pre>`;
+const trinta = `<pre>
+-----
+|o o|
+|o o|
+|o o|
+|o o|
+|o o|
+-----
+</pre>`;
 
-const diceNumbers = [one, two, three, four, five, six, sete, oito, nove, dez, vinte];
+const diceNumbers = [one, two, three, four, five, six, sete, oito, nove, dez, vinte, trinta];
 
 module.exports = {
     roll: function () {
