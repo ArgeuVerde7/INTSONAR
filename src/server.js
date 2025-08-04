@@ -1,10 +1,6 @@
 const express =  require('express');
 const app =  express();
-
-//let express = require('express');
-//let app = express();
 app.disable("x-powered-by");
-
 const port =  8080
 
 app.get('/', (req, res) => {
@@ -20,4 +16,3 @@ let server = app.listen(port, () => {
 
 
 module.exports  = server;
-
