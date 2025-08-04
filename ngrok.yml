@@ -7,3 +7,7 @@ tunnels:
       - https
       - http
     domain: fit-moccasin-nicely.ngrok-free.app
+    name: Install dependencies
+    run: yarn
+    name: Test and coverage
+    run: yarn jest --coverage
