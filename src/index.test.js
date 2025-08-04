@@ -1,4 +1,4 @@
-src/tests/index.test.js
+src/index.test.js
 
     const request =  require('supertest')
     const server =  require('../server')
@@ -17,4 +17,5 @@ src/tests/index.test.js
     })
     afterAll(async () => {
         server.close();
+
     });
