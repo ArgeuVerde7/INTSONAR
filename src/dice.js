@@ -92,8 +92,27 @@ const trinta = `<pre>
 |o o|
 -----
 </pre>`;
+const cem = `<pre>
+-----
+|o o o o o o o o|
+|o o o o o o o o|
+|o o o o o o o o|
+|o o o o o o o o|
+|o o o o o o o o|
+|o o o o o o o o|
+|o o o o o o o o|
+|o o o o o o o o|
+|o o o o o o o o|
+|o o o o o o o o|
+|o o o o o o o o|
+|o o o o o o o o|
+|o o o o o o o o|
+|o o o o o o o o|
+|o o o o o o o o|
+-----
+</pre>`;
 
-const diceNumbers = [one, two, three, four, five, six, sete, oito, nove, dez, vinte, trinta];
+const diceNumbers = [one, two, three, four, five, six, sete, oito, nove, dez, vinte, trinta, cem];
 
 module.exports = {
     roll: function () {
