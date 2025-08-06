@@ -1,0 +1,11 @@
+{
+  "name": "Teste Coverage",
+  "version": "0.0.1",
+  "description": "Coverage Type e Javascript",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
