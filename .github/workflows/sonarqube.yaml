@@ -11,9 +11,9 @@ jobs:
         with:
           fetch-depth: 0 
       - name: Install dependencies
-        run: yarn
-      - name: Test and coverage
-        run: yarn jest --coverage
+        run: npm install
+      - name: Run tests and collect coverage
+        run: npm run test
       - name: Analisando SonarQube
         uses: SonarSource/sonarqube-scan-action@v2.0.1
         env:
