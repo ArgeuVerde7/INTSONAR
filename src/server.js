@@ -14,5 +14,4 @@ let server = app.listen(port, () => {
     console.log(`Application server running on ${port}`);
 });
 
-
 module.exports  = server;
