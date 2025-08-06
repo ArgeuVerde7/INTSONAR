@@ -1,35 +1,27 @@
 {
-  "name": "TesteCoverage",
+  "name": "meu-projeto-com-jest",
   "version": "1.0.0",
-  "description": "Observando como o coverage se comporta",
-  "main": "src/index.js",
+  "description": "Um exemplo de projeto com Jest e cobertura de código",
   "scripts": {
-    "sonar": "sonar-project.properties",
-    "test": "jest --coverage"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-html-reporter": "^3.7.0" 
   },
   "jest": {
     "testEnvironment": "node",
-    "coveragePathIgnorePatterns": [
-      "/node_modules/",
-      "/.git/"
+    "testMatch": [
+      "**/__tests__/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[jt]s?(x)"
     ],
-    "testResultsProcessor": "jest-sonar-reporter"
-  },
-  "jestSonar": {
-    "reportPath": "coverage",
-    "reportFile": "test-reporter.xml",
-    "indent": 4
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest-sonar-reporter": "^2.0.0",
-    "sonarqube-scanner": "^2.5.0",
-    "supertest": "^4.0.2"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "jest": "^24.9.0"
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**"
+    ],
+    "coverageReporters": ["html", "text", "cobertura"]
   }
 }
