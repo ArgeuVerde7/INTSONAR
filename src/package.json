@@ -1,7 +1,11 @@
 {
-  "name": "my-package",
+  "name": "Teste Coverage",
+  "version": "0.0.1",
+  "description": "Coverage Type e Javascript",
   "scripts": {
-    "build": "babel src -d lib",
-    "prebuild": "jest"
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
   }
 }
